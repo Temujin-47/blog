@@ -1,0 +1,40 @@
+/* src/components/Article.css */
+
+/* Center the entire article content */
+.article {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Title styling */
+.article h1 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Paragraph styling */
+.article p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Styling for images */
+.article-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

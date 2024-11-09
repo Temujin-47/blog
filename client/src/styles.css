@@ -1,0 +1,29 @@
+/* src/styles.css */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-preview {
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.article-preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}

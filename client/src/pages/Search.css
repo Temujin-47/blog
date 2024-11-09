@@ -1,0 +1,49 @@
+.search {
+    padding: 30px;
+    padding-bottom: 2.5rem;
+    min-height: 100%;
+}
+
+.dark {
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+
+.search_title {
+    display: flex;
+    max-width: 1200px;
+    /* background-color: white; */
+    padding: 30px;
+
+
+}
+
+h1 {
+    font-size: 70px;
+
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.searchInput {
+    align-self: center;
+    height: 30px;
+    border: auto;
+    width: 40%;
+}
+
+.search_Icon {
+
+    padding: 5px;
+    height: 30px !important;
+
+}
+
+.search_item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    margin: auto;
+
+}
